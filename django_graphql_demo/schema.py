@@ -14,6 +14,7 @@ class Query(
 
 class Mutation(
     book.schema.Mutation,
+    user.schema.Mutation,
     graphene.ObjectType,
 ):
     pass

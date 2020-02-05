@@ -248,4 +248,4 @@ pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/macos,django,virtualenv,pycharm+all
 
-db.sqlite3
+assets/

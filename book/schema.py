@@ -78,6 +78,3 @@ class CountryMutation(DjangoModelFormMutation):
 
 class Mutation(graphene.ObjectType):
     create_country = CountryMutation.Field()
-
-
-schema = graphene.Schema(query=Query, mutation=Mutation)
